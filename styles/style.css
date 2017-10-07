@@ -13,6 +13,17 @@ body {
   text-align: center;
 }
 
+.horizontal-logo {
+  text-align: left;
+  background: linear-gradient(-90deg, #ed2024, white);
+  margin-top: -1em;
+}
+
+.hlogo {
+  margin-left: 2em;
+  padding-bottom: 1em;
+}
+
 img {
   margin-top: 2em;
 }
@@ -41,4 +52,62 @@ h3 {
 
 .intro-text {
   text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-links {
+  display: flex;
+  margin-top: -2.5em;
+  margin-right: 1em;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: normal;
+  margin-right: 1em;
+  color: white;
+}
+
+.nav-links a:hover {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: normal;
+  margin-right: 1em;
+  color: #3935a5;
+}
+
+section {
+  height: 20em;
+  display: flex;
+}
+
+.steps {
+  margin-top: 2em;
+}
+
+.steps h1 {
+  font-size: 90px;
+  color: white;
+  margin: auto;
+  text-align: center;
+}
+
+.steps h5 {
+  font-size: 18px;
+  margin-top: 1em;
+  color: #3935a5;
+  text-align: center;
+}
+
+#circle {
+  width: 100px;
+  height: 100px;
+  background: #3935a5;
+  border-radius: 50px;
+  margin: auto;
 }
