@@ -82,8 +82,8 @@ h3 {
 }
 
 section {
-  height: 20em;
   display: flex;
+  margin-bottom: 5em;
 }
 
 .steps {
@@ -110,4 +110,32 @@ section {
   background: #3935a5;
   border-radius: 50px;
   margin: auto;
+}
+
+.teams {
+  display: flex;
+  margin-left: -2em;
+}
+
+.team-cards {
+  margin: auto;
+}
+
+.team-cards a:hover {
+}
+
+a img {
+  height: 300px;
+  width: 200px;
+
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+a img:hover {
+  width: 250px;
+  height: 350px;
 }
