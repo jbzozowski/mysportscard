@@ -136,7 +136,7 @@ section {
   margin: auto;
 }
 
-a img {
+.team-cards a img {
   height: 300px;
   width: 200px;
 
@@ -147,7 +147,7 @@ a img {
   transition: all 1s ease;
 }
 
-a img:hover {
+.team-cards a img:hover {
   width: 250px;
   height: 350px;
 }
@@ -284,4 +284,42 @@ textarea::placeholder {
     -webkit-transform: scale3D(0, 0, 1);
     transform: scale3D(0, 0, 1);
   }
+}
+
+.steps p {
+  text-align: center;
+  margin-left: 3em;
+  margin-right: 3em;
+  background-color: #3935a5;
+  filter: brightness(80%);
+  color: white;
+  padding: 2em;
+  border-radius: 8px;
+}
+
+.steps h2 {
+  text-align: center;
+  color: #ed2024;
+  font-size: 24px;
+}
+
+.preview-card {
+  margin: auto;
+}
+
+.finish {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.finish button {
+  text-align: center;
+  background-color: #3935a5;
+  color: white;
+  font-size: 24px;
+  border-radius: 4px;
+  border: none;
+  padding: 6px 12px;
+  font-weight: bold;
+  margin: auto;
 }
