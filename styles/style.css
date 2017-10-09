@@ -64,6 +64,8 @@ img {
 
 .intro-text {
   text-align: center;
+  margin: 3em;
+  color: #3935a5;
 }
 
 .nav {
@@ -110,6 +112,13 @@ section {
 }
 
 .steps h5 {
+  font-size: 18px;
+  margin-top: 1em;
+  color: #3935a5;
+  text-align: center;
+}
+
+.subhead h5 {
   font-size: 18px;
   margin-top: 1em;
   color: #3935a5;
@@ -336,5 +345,5 @@ div p {
 }
 
 .thanks h1 {
-  margin-top: 2em;
+  margin-top: .5em;
 }
